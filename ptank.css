@@ -1,5 +1,5 @@
 * {
-	/*background-image: url(bkg.jpg);*/
+	/*background-image: url(done.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: none;
@@ -15,8 +15,12 @@ canvas {
 	background-image: url(all.jpg);
 	position: absolute;
 	background-repeat: no-repeat;
-	left: 200px;
-
+	left:260px;
+    top:20px;
+    /*position: absolute;
+	background: linear-gradient(0deg, #b63bcc 0%, #170716 89%);
+	left: 260px;
+	top: 20px;*/
 }
 
 #container {
@@ -25,16 +29,16 @@ canvas {
 	padding: 10px;
     position: relative;
 	height: 80px;
-	width: 750px;
-	left: 300px;
-	top: 580px;
+	width: 950px;
+	left: 260px;
+	top: 584px;
 	background: black;
 
 }
-/*body {
+body {
 	position: relative;
 	
-}*/
+}
 
 /*Basic css for gamecontrols*/
 .control {
@@ -73,13 +77,11 @@ canvas {
 .fire-weapon {
 	font-size: 22px;
 	font-weight: bold;
-	line-height: 1em;
 	width: 100px;
 	text-align: center;
 	background: linear-gradient(0deg, black, red);
-	
 }
-/*Angle Button*/
+/* Angle*/
 .control .slidecontainer {
 	height: 70%;
 	width: 80%;
